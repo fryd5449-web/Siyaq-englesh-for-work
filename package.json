@@ -1,0 +1,13 @@
+{
+  "name": "siyaq-english-for-work",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Arabic-first workplace English practice, stored locally.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs dist",
+    "serve:source": "node scripts/serve.mjs ."
+  }
+}
